@@ -11,16 +11,14 @@
 	"icon": "assets/entityridingreverter/icon.png",
 	"environment": "*",
 	"mixins": [
-		"entityridingreverter.mixins.json",
 		{
 			"config": "entityridingreverter.client.mixins.json",
 			"environment": "client"
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.20.1",
-		"minecraft": "~26.3",
-		"java": ">=25",
-		"fabric-api": "*"
+		"fabricloader": "*",
+		"minecraft": ">=26.3",
+		"java": ">=25"
 	}
 }
