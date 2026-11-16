@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "entityridingreverter",
+	"version": "${version}",
+	"name": "EntityRidingReverter",
+	"description": "Reverts Mouse Input Behaviour to 26.2",
+	"authors": [
+		"Zorty"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/entityridingreverter/icon.png",
+	"environment": "*",
+	"mixins": [
+		"entityridingreverter.mixins.json",
+		{
+			"config": "entityridingreverter.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
